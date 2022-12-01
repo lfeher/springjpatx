@@ -2,7 +2,7 @@ version: '3.3'
 services:
   user-db:
     build:
-      context: .
+      context: docker/db/user
       args:
         - MYSQL_DATABASE=${MYSQL_DATABASE}
         - MYSQL_USER=${MYSQL_USER}
