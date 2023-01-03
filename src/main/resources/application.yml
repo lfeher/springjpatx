@@ -17,6 +17,7 @@ spring:
     user:
       name: user
       password: 1234
+      roles: ADMIN
 logging:
   level:
     org.springframework.orm.jpa: trace
